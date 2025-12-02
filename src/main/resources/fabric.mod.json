@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "optimizationmod",
+  "version": "1.0.3",
+  "name": "Optimization Mod",
+  "description": "A performance optimization mod for Minecraft 1.21.1",
+  "authors": ["Avik268"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/optimizationmod",
+    "sources": "https://github.com/avik268/optimizationmod",
+    "issues": "https://github.com/avik268/optimizationmod/issues"
+  },
+  "license": "CC0",
+  "icon": "assets/optimizationmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.optimizationmod.OptimizationMod"
+    ],
+    "client": [
+      "com.example.optimizationmod.OptimizationModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "anothermod": "*"
+  }
+}
